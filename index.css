@@ -1,0 +1,83 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f8ff; 
+    color: #333; 
+}
+
+
+.navbar {
+    background-color: #343a40; 
+}
+.navbar-brand, .nav-link {
+    color: #ffffff !important; 
+}
+.navbar-brand:hover, .nav-link:hover {
+    color: #ffc107 !important; 
+}
+
+
+.hero-section {
+    background-image: url('./images/Dengue.jpg'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    padding: 100px 0; 
+}
+.hero-section h1 {
+    font-size: 3rem;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); 
+}
+.hero-section p {
+    font-size: 1.5rem;
+}
+
+.carousel-inner img {
+    border-radius: 10px;
+}
+
+.products-heading {
+    margin-top: 50px;
+}
+
+.products-heading h2 {
+    font-size: 2.5rem;
+    color: #2c3e50; 
+}
+
+.products-heading p {
+    font-size: 1.25rem;
+}
+
+.cards-section {
+    background-color: #ffffff; 
+    border-radius: 10px; 
+    padding: 30px; 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); 
+}
+
+.cards-section .card {
+    transition: transform 0.2s, box-shadow 0.2s; 
+    border-radius: 10px; 
+}
+
+.cards-section .card:hover {
+    transform: scale(1.05); 
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
+}
+
+.card-title {
+    font-size: 1.5rem;
+}
+
+.card-text {
+    font-size: 1.25rem; 
+}
+
+.footer {
+    background-color: #343a40;
+    color: #ffffff; 
+}
+
+.footer p {
+    margin-bottom: 0;
+}
